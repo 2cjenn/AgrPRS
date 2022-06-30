@@ -1,0 +1,28 @@
+data:
+ database: "K:/TEU/UKB33952_Data/Data_Downloads/V5_database_duckdb0.3.0/ukb_v5.db"
+ portal:
+  HES: "K:/TEU/UKB33952_Data/Data_Portal/HES_diagnoses/20210812"
+  deaths: "K:/TEU/UKB33952_Data/Data_Portal/Death_Registry/20210812"
+ derived: "Data/Derived"
+ analysed: "Data/Analysed"
+ dictionary: "docs"
+ prs:
+  brca313: "K:/TEU/UKB_Genetic_Data/PRS_Pipeline/prs/projects/brca313-mavaddat2018/outputs"
+  brca100k: "K:/TEU/UKB_Genetic_Data/PRS_Pipeline/prs/projects/brca100k-fritsche2020/outputs"
+  sbp_evangelou: "K:/TEU/UKB_Genetic_Data/PRS_Pipeline/prs/projects/htn-evangelou2018/outputs/"
+  sbp_warren: "K:/TEU/UKB_Genetic_Data/PRS_Pipeline/prs/projects/htn-warren2017/outputs/"
+  alz_ebenau: "K:/TEU/UKB_Genetic_Data/PRS_Pipeline/prs/projects/alz39_Ebenau/outputs/"
+  alz_najar: "K:/TEU/UKB_Genetic_Data/PRS_Pipeline/prs/projects/alz57_Najar/outputs/"
+cleaning:
+ withdrawals: "K:/TEU/UKB33952_Data/Data_Downloads/Withdrawals/w33952_20210809.csv"
+ renaming: "K:/TEU/UKB33952_Data/Data_Dictionary/Renaming_List_UPDATE_Sep2021_TEU.csv"
+ coding: "K:/TEU/UKB33952_Data/Data_Dictionary/Mappings/Encoding_files"
+ mapping: "K:/TEU/UKB33952_Data/Data_Dictionary/Mappings/Analysis_codings_xlsx"
+outputs:
+ figures: "Scripts/Stats_Analysis/RMarkdown/Figures"
+functions:
+ JC: "Scripts/Stats_Analysis/JCfunctions.R"
+scripts:
+ cleaning: "Scripts/Data_Management/Scripts_Cleaning"
+ processing: "Scripts/Data_Management/Scripts_Processing"
+
